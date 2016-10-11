@@ -5,7 +5,7 @@ Pipe in a json string and output a a pretty version
 
 put it in your `bin`
 
-`ln -s ~/bin/jsonpretty ./jsonpretty.py`
+`ln -s ~/path/to/jsonpretty/jsonpretty.py ~/bin/jsonpretty`
 
 Pipe some stuff in
 
