@@ -11,6 +11,18 @@ Pipe some stuff in
 
 `echo '{ "test" : "test", "list" :[1,2,4]}' | jsonpretty`
 
+outputs
+```
+{
+    "list": [
+        1,
+        2,
+        4
+    ],
+    "test": "test"
+}
+```
+
 Then pipe it out
 
 `echo '{ "test" : "test", "list" :[1,2,4]}' | jsonpretty > pretty.json`
